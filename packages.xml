@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>  
+<!-- We're not using OpenDelta so remove it to save a few MegaBytes of memory -->
+<remove-project name="android_packages_apps_OpenDelta" />
+
+<!-- The laziest way to fix hardware decoding: sync AOSP's frameworks/av -->
+<remove-project path="frameworks/av" name="android_frameworks_av" remote="omni-security" revision="android-7.1" groups="pdk" />
+<project name="Unlegacy-Android/android_frameworks_av" path="frameworks/av" remote="github" revision="aosp-7.1" groups="pdk" />
+
+<!-- Chromium web browser --> 
+<project path="prebuilts/chromium-browser" name="andi34/prebuilts_chromium" remote="github" revision="master" clone-depth="1" />
+</manifest> 

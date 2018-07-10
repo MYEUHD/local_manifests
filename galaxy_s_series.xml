@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+<!-- Device tree -->
+<project name="MYEUHD/android_device_samsung_galaxysmtd" path="device/samsung/galaxysmtd" remote="github" revision="android-7.1" />
+
+<!-- Kernel -->
+<project name="MYEUHD/android_kernel_samsung_aries" path="kernel/samsung/aries" remote="github" revision="android-7.1" />
+
+<!--Vendor blobs -->
+<project name="xc-racer99/proprietary_vendor_samsung" path="vendor/samsung" remote="github" revision="aosp-7.1" clone-depth="5" />
+
+<!-- Common Repos-->
+<project name="MYEUHD/android_device_samsung_aries-common" path="device/samsung/aries-common" remote="github" revision="android-7.1" />
+<project name="xc-racer99/android_hardware_samsung" path="hardware/samsung" remote="github" revision="aosp-7.1" />
+<project name="xc-racer99/android_packages_apps_SamsungServiceMode" path="packages/apps/SamsungServiceMode" remote="github" revision="android-6.0" />
+
+
+<!-- Misc Other Projects -->
+<project name="CyanogenMod/android_external_yaffs2" path="external/yaffs2" remote="github" revision="cm-14.1" />
+
+<!-- Patches -->
+<project name="MYEUHD/android_patches" path="patches" remote="github" revision="android-7.1" />
+
+</manifest>
