@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <remove-project path="hardware/ti/omap4" name="Unlegacy-Android/android_hardware_ti_omap4" remote="unlegacy" revision="stable" groups="omap4" />
+  <remove-project path="kernel/ti/omap4" name="Unlegacy-Android/android_kernel_ti_omap4" remote="unlegacy" revision="3.0/common" groups="kernel,omap4,espresso,tuna" />
+  <remove-project path="external/jhead" name="platform/external/jhead"  groups="omap4,espresso,tuna" />
+  <remove-project path="device/samsung/tuna" name="Unlegacy-Android/android_device_samsung_tuna"  groups="omap4,device,samsung,tuna" />
+  <remove-project path="device/samsung/espresso" name="Unlegacy-Android/android_device_samsung_espresso"  groups="omap4,device,samsung,espresso" />
+  <premove-project path="device/samsung/espresso3g" name="Unlegacy-Android/android_device_samsung_espresso3g"  groups="omap4,device,samsung,espresso" />
+  <remove-project path="kernel/bn/omap" name="Unlegacy-Android/android_kernel_bn_omap" groups="omap4,kernel,bn,nookhd" />
+  <remove-project path="hardware/ti/wlan" name="Unlegacy-Android/android_hardware_ti_wlan" groups="pdk,omap4,wlan" />
+  <remove-project path="hardware/ti/wpan" name="Unlegacy-Android/android_hardware_ti_wpan" groups="pdk,omap4,bt" />
+  <remove-project path="device/bn/common" name="Unlegacy-Android/android_device_bn_common" groups="omap4,device,bn,nookhd" />
+  <remove-project path="device/bn/ovation" name="Unlegacy-Android/android_device_bn_ovation" groups="omap4,device,bn,nookhd" />
+  <remove-project path="device/bn/hummingbird" name="Unlegacy-Android/android_device_bn_hummingbird"  groups="omap4,device,bn,nookhd" />
+  <remove-project path="kernel/bn/acclaim" name="Unlegacy-Android/android_kernel_bn_acclaim" remote="unlegacy" groups="omap4,kernel,bn,acclaim" />
+  <remove-project path="device/bn/acclaim" name="Unlegacy-Android/android_device_bn_acclaim"/>
+
+  <remove-project path="hardware/nvidia/tegra3" name="Unlegacy-Android/android_hardware_nvidia_tegra3" remote="unlegacy" groups="tegra3" />
+  <remove-project path="kernel/nvidia/tegra3" name="Unlegacy-Android/android_kernel_nvidia_tegra3" remote="unlegacy" groups="kernel,tegra3" />
+  <remove-project path="device/asus/grouper" name="Unlegacy-Android/android_device_asus_grouper"  groups="tegra3,device,asus,grouper" />
+  <remove-project path="device/asus/tilapia" name="Unlegacy-Android/android_device_asus_tilapia"  groups="tegra3,device,asus,grouper" />
+  <remove-project path="device/acer/picasso2" name="Unlegacy-Android/android_device_acer_picasso2" groups="tegra3,device,acer,picasso2" />
+  <remove-project path="device/lenovo/a2109" name="Unlegacy-Android/android_device_lenovo_a2109"  groups="tegra3,device,lenovo,a2109" />
+  <remove-project path="device/asus/transformer" name="Unlegacy-Android/android_device_asus_transformer" groups="tegra3,device,asus,transformer" />
+
+  <remove-project path="kernel/htc/flounder" name="Unlegacy-Android/android_kernel_htc_flounder" groups="tegra132,kernel,htc,flounder" />
+  <remove-project path="device/htc/flounder" name="Unlegacy-Android/android_device_htc_flounder" groups="tegra132,device,htc,flounder" />
+
+  <remove-project path="device/lge/mako" name="Unlegacy-Android/android_device_lge_mako" groups="qcom,device,lge,mako" />
+  <remove-project path="device/asus/flo" name="Unlegacy-Android/android_device_asus_flo" groups="qcom,device,asus,flo" />
+  <remove-project path="device/asus/deb" name="Unlegacy-Android/android_device_asus_deb" groups="qcom,device,asus,deb" />
+  <remove-project path="kernel/lge/hammerhead" name="Unlegacy-Android/android_kernel_lge_hammerhead" groups="qcom,kernel,lge,hammerhead" />
+  <remove-project path="device/lge/hammerhead" name="Unlegacy-Android/android_device_lge_hammerhead" groups="qcom,device,lge,hammerhead" />
+  <remove-project path="kernel/qcom/msm8960" name="Unlegacy-Android/android_kernel_qcom_msm8960" groups="kernel,qcom" />
+
+  <remove-project path="vendor/acer" name="Unlegacy-Android/proprietary_vendor_acer"/>
+  <remove-project path="vendor/asus" name="Unlegacy-Android/proprietary_vendor_asus"/>
+  <remove-project path="vendor/bn" name="Unlegacy-Android/proprietary_vendor_bn"/>
+  <remove-project path="vendor/broadcom" name="Unlegacy-Android/proprietary_vendor_broadcom"/>
+  <remove-project path="vendor/invensense" name="Unlegacy-Android/proprietary_vendor_invensense"/>
+  <remove-project path="vendor/lenovo" name="Unlegacy-Android/proprietary_vendor_lenovo"/>
+  <remove-project path="vendor/lge" name="Unlegacy-Android/proprietary_vendor_lge"/>
+  <remove-project path="vendor/nvidia" name="Unlegacy-Android/proprietary_vendor_nvidia" />
+  <remove-project path="vendor/qcom" name="Unlegacy-Android/proprietary_vendor_qcom"/>
+  <remove-project path="vendor/ti" name="Unlegacy-Android/proprietary_vendor_ti"  />
+  <remove-project path="vendor/widevine" name="Unlegacy-Android/proprietary_vendor_widevine" />
+
+</manifest>

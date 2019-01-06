@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote  name="github"
+           fetch="https://github.com/" />
+
+  <!-- Vendor Blobs -->
+  <remove-project name="Unlegacy-Android/proprietary_vendor_samsung" path="vendor/samsung" />
+  <project name="MYEUHD/proprietary_vendor_samsung" path="vendor/samsung" remote="github" revision="aosp-7.1-ubi" />
+  <!-- Device Trees -->
+  <project name="MYEUHD/android_device_samsung_galaxysubi" path="device/samsung/galaxysubi" remote="github" revision="asop-7.1" />
+
+
+  <!-- Galaxy S Common Repos -->
+  <project name="MYEUHD/android_device_samsung_aries-common" path="device/samsung/aries-common" remote="github" revision="aosp-7.1-ubi" />
+  <project name="xc-racer99/android_packages_apps_SamsungServiceMode" path="packages/apps/SamsungServiceMode" remote="github" revision="android-6.0" />
+  <project name="xc-racer99/android_hardware_samsung" path="hardware/samsung" remote="github" revision="aosp-7.1" />
+
+  <!-- Kernel Repo -->
+  <project name="MYEUHD/android_kernel_samsung_aries" path="kernel/samsung/aries" remote="github" revision="aosp-7.1-ubi" />
+
+  <!-- Misc Other Projects -->
+  <project name="CyanogenMod/android_external_yaffs2" path="external/yaffs2" remote="github" revision="cm-14.1" />
+  <project name="xc-racer99/android_external_mtd-utils" path="external/mtd-utils" remote="github" revision="2.0.1-android" />
+
+  <!-- Patches -->
+  <project name="MYEUHD/android_patches" path="patches" remote="github" revision="unlegacy-7.1-ubi" />
+</manifest>
